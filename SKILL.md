@@ -134,19 +134,22 @@ Calibrate titles like a Xiaohongshu feed item:
 
 Write the body as a publish-ready Xiaohongshu note.
 
-Use 4-7 thematic paragraphs. Separate paragraphs with blank lines. Most thematic paragraphs should start with a lightweight emoji-led subheading:
+Use 4-7 thematic paragraphs. Separate paragraphs with blank lines. Most thematic paragraphs may start with a lightweight Xiaohongshu-style marker:
 
 ```text
-⚠️别只看替代
+👉别只看替代
 ...
 
-💡真正变化在这
+🔍真正变化在这
 ...
 ```
 
 Subheading rules:
 
-- Use one semantically relevant emoji per subheading.
+- Use emoji/markers conservatively. Prefer 3-5 marked subheadings in a note, not every paragraph by default.
+- Prefer a small stable marker set: `👉` for point/reader relevance, `🔍` for explanation, `⚠️` for warning/mistake, `✅` for takeaway/method, `📌` for summary, `💡` for insight.
+- Avoid noisy, overly literal, or decorative emoji such as `🏥`, `🚀`, `🔥`, `💰`, `😭`, `✨`, unless the source topic truly calls for that emotional register.
+- It is better to use no emoji than to use a mismatched emoji.
 - Keep subheadings 6-12 Chinese characters when possible.
 - Make subheadings concrete and conversational.
 - Do not use `01/02/03`, outline labels, academic section markers, or long official article headings unless the user explicitly asks for numbered structure.
