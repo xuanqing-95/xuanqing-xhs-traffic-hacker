@@ -138,9 +138,11 @@ Use 4-7 thematic paragraphs. Separate paragraphs with blank lines. Most thematic
 
 ```text
 ⚠️别只看替代
+
 ...
 
 💡真正变化在这
+
 ...
 ```
 
@@ -150,6 +152,7 @@ Subheading rules:
 - Keep subheadings 6-12 Chinese characters when possible.
 - Make subheadings concrete and conversational.
 - Do not use `01/02/03`, outline labels, academic section markers, or long official article headings unless the user explicitly asks for numbered structure.
+- Format each body block as: subheading line, one blank line, paragraph text, one blank line before the next subheading. This is required for copy-paste readability in Xiaohongshu.
 
 Paragraph progression:
 
@@ -164,6 +167,7 @@ Style:
 
 - Each paragraph usually has 2-4 connected sentences.
 - Do not write one sentence per line.
+- Do not merge subheading and paragraph into adjacent lines without a blank line.
 - Use at most 1-2 standalone punch lines in the whole body.
 - Use lists only for concrete enumerations.
 - Keep logical transitions visible.
