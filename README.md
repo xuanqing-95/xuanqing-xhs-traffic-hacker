@@ -4,9 +4,10 @@
 
 默认输出：
 
-- 5 个高点击标题
+- 1 个最终标题
 - 一篇可直接发布的小红书正文
 - 6-10 个小红书标签
+- 严格 `<COPY_TEXT>` 标签格式，方便数据库录入
 
 ## What It Does
 
@@ -52,21 +53,19 @@ You can also ask in Chinese:
 ## Output Format
 
 ```text
-## 标题
+<COPY_TEXT>
+<TITLE>
+Day 01 每天吃透一个AI知识点｜MCP
+</TITLE>
 
-1. ...
-2. ...
-3. ...
-4. ...
-5. ...
+<BODY>
+这里是正文内容……
+</BODY>
 
-## 正文
-
-...
-
-## 标签
-
-#... #... #...
+<TAGS>
+#MCP #AI知识科普 #人工智能 #AI工具
+</TAGS>
+</COPY_TEXT>
 ```
 
 ## Files

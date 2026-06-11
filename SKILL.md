@@ -78,26 +78,35 @@ Only output the final result.
 Always use this compact output unless the user asks for 完整版, 全链路, 诊断, 视觉锤, SEO, 金句, or 互动诱饵.
 
 ```text
-## 标题
-
-1. ...
-2. ...
-3. ...
-4. ...
-5. ...
-
-## 正文
-
+<COPY_TEXT>
+<TITLE>
 ...
+</TITLE>
 
-## 标签
+<BODY>
+...
+</BODY>
 
+<TAGS>
 #... #... #...
+</TAGS>
+</COPY_TEXT>
 ```
+
+Strict output rules:
+
+- Output exactly one `<COPY_TEXT>` block.
+- Do not wrap the result in Markdown fences.
+- Do not add any text before `<COPY_TEXT>` or after `</COPY_TEXT>`.
+- Use exactly one `<TITLE>`, one `<BODY>`, and one `<TAGS>` section.
+- Put the final selected title in `<TITLE>`. Do not output the 5-title candidate list in default mode.
+- Keep `<TITLE>` as plain text, one line only.
+- Keep `<BODY>` as publish-ready copy with paragraph-block blank lines preserved.
+- Keep `<TAGS>` as one line of space-separated hashtags.
 
 ## Length Budget
 
-- Output exactly 5 titles.
+- Generate 5 title candidates internally, then output only the strongest final title in `<TITLE>`.
 - Titles should usually use most of the available title space, about 18-24 visible characters.
 - If the platform or user explicitly requires a hard 20-character limit, still aim for 16-20 Chinese characters rather than ultra-short slogans.
 - English acronyms, product names, company names, and authority names may make titles slightly longer; preserve them when they create trust or curiosity.

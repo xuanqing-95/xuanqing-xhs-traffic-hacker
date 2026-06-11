@@ -1,4 +1,4 @@
 interface:
   display_name: "玄清小红书爆款专家"
   short_description: "玄清流量黑客式小红书重构。"
-  default_prompt: "Use $xuanqing-xhs-traffic-hacker to rewrite my Xiaohongshu topic or draft into 5 high-CTR titles, a publish-ready body, and hashtags."
+  default_prompt: "Use $xuanqing-xhs-traffic-hacker to rewrite my Xiaohongshu topic or draft into strict <COPY_TEXT> format with one title, body, and hashtags."

@@ -60,8 +60,9 @@ Use this reference when producing a more rigorous, repeatable transformation pip
 
 When the user asks for a quick version, output only:
 
-1. Top 5 titles
+1. Final selected title
 2. Rewritten body
 3. Hashtags
+4. Strict `<COPY_TEXT>` wrapper when database import is needed
 
 When the user asks for a full version, output the full `SKILL.md` output format.
